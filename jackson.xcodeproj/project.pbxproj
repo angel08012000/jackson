@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,46 @@
 		7B46CEF925AE214200B709FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B46CEF825AE214200B709FE /* Preview Assets.xcassets */; };
 		7B46CEFB25AE214200B709FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CEFA25AE214200B709FE /* Persistence.swift */; };
 		7B46CEFE25AE214200B709FE /* jackson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CEFC25AE214200B709FE /* jackson.xcdatamodeld */; };
+		7B46CF0725AE219B00B709FE /* youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF0625AE219B00B709FE /* youtube.swift */; };
+		7B46CF0A25AE21B300B709FE /* music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF0925AE21B300B709FE /* music.swift */; };
+		7B46CF0D25AE21E400B709FE /* musicEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF0C25AE21E400B709FE /* musicEditor.swift */; };
+		7B46CF1425AE229600B709FE /* youtube_detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF1325AE229600B709FE /* youtube_detail.swift */; };
+		7B46CF2225AE2BC200B709FE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B46CF2125AE2BC200B709FE /* WidgetKit.framework */; };
+		7B46CF2425AE2BC200B709FE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B46CF2325AE2BC200B709FE /* SwiftUI.framework */; };
+		7B46CF2725AE2BC200B709FE /* MyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF2625AE2BC200B709FE /* MyWidget.swift */; };
+		7B46CF2A25AE2BC700B709FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B46CF2925AE2BC700B709FE /* Assets.xcassets */; };
+		7B46CF2C25AE2BC700B709FE /* MyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF2825AE2BC200B709FE /* MyWidget.intentdefinition */; };
+		7B46CF2D25AE2BC700B709FE /* MyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF2825AE2BC200B709FE /* MyWidget.intentdefinition */; };
+		7B46CF3025AE2BC700B709FE /* MyWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7B46CF1F25AE2BC200B709FE /* MyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B46CF3825AE2BED00B709FE /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF3725AE2BED00B709FE /* data.swift */; };
+		7B46CF3925AE2BED00B709FE /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46CF3725AE2BED00B709FE /* data.swift */; };
+		90762BE925AEB00B00D88740 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 90762BE825AEB00B00D88740 /* Alamofire */; };
+		90762BEE25AEB26B00D88740 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 90762BED25AEB26B00D88740 /* URLImage */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B46CF2E25AE2BC700B709FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B46CEE625AE213E00B709FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B46CF1E25AE2BC200B709FE;
+			remoteInfo = MyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B46CF3125AE2BC700B709FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7B46CF3025AE2BC700B709FE /* MyWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7B46CEEE25AE213E00B709FE /* jackson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jackson.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +63,18 @@
 		7B46CEFA25AE214200B709FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7B46CEFD25AE214200B709FE /* jackson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jackson.xcdatamodel; sourceTree = "<group>"; };
 		7B46CEFF25AE214200B709FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B46CF0625AE219B00B709FE /* youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube.swift; sourceTree = "<group>"; };
+		7B46CF0925AE21B300B709FE /* music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music.swift; sourceTree = "<group>"; };
+		7B46CF0C25AE21E400B709FE /* musicEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicEditor.swift; sourceTree = "<group>"; };
+		7B46CF1325AE229600B709FE /* youtube_detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_detail.swift; sourceTree = "<group>"; };
+		7B46CF1F25AE2BC200B709FE /* MyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B46CF2125AE2BC200B709FE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7B46CF2325AE2BC200B709FE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7B46CF2625AE2BC200B709FE /* MyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidget.swift; sourceTree = "<group>"; };
+		7B46CF2825AE2BC200B709FE /* MyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MyWidget.intentdefinition; sourceTree = "<group>"; };
+		7B46CF2925AE2BC700B709FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B46CF2B25AE2BC700B709FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B46CF3725AE2BED00B709FE /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +82,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90762BEE25AEB26B00D88740 /* URLImage in Frameworks */,
+				90762BE925AEB00B00D88740 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B46CF1C25AE2BC200B709FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B46CF2425AE2BC200B709FE /* SwiftUI.framework in Frameworks */,
+				7B46CF2225AE2BC200B709FE /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +102,10 @@
 		7B46CEE525AE213E00B709FE = {
 			isa = PBXGroup;
 			children = (
+				7B46CF3725AE2BED00B709FE /* data.swift */,
 				7B46CEF025AE213E00B709FE /* jackson */,
+				7B46CF2525AE2BC200B709FE /* MyWidget */,
+				7B46CF2025AE2BC200B709FE /* Frameworks */,
 				7B46CEEF25AE213E00B709FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				7B46CEEE25AE213E00B709FE /* jackson.app */,
+				7B46CF1F25AE2BC200B709FE /* MyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +124,10 @@
 			children = (
 				7B46CEF125AE213E00B709FE /* jacksonApp.swift */,
 				7B46CEF325AE213E00B709FE /* ContentView.swift */,
+				7B46CF1325AE229600B709FE /* youtube_detail.swift */,
+				7B46CF0925AE21B300B709FE /* music.swift */,
+				7B46CF0C25AE21E400B709FE /* musicEditor.swift */,
+				7B46CF0625AE219B00B709FE /* youtube.swift */,
 				7B46CEF525AE214200B709FE /* Assets.xcassets */,
 				7B46CEFA25AE214200B709FE /* Persistence.swift */,
 				7B46CEFF25AE214200B709FE /* Info.plist */,
@@ -75,6 +145,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7B46CF2025AE2BC200B709FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B46CF2125AE2BC200B709FE /* WidgetKit.framework */,
+				7B46CF2325AE2BC200B709FE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B46CF2525AE2BC200B709FE /* MyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7B46CF2625AE2BC200B709FE /* MyWidget.swift */,
+				7B46CF2825AE2BC200B709FE /* MyWidget.intentdefinition */,
+				7B46CF2925AE2BC700B709FE /* Assets.xcassets */,
+				7B46CF2B25AE2BC700B709FE /* Info.plist */,
+			);
+			path = MyWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +175,38 @@
 				7B46CEEA25AE213E00B709FE /* Sources */,
 				7B46CEEB25AE213E00B709FE /* Frameworks */,
 				7B46CEEC25AE213E00B709FE /* Resources */,
+				7B46CF3125AE2BC700B709FE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B46CF2F25AE2BC700B709FE /* PBXTargetDependency */,
+			);
+			name = jackson;
+			packageProductDependencies = (
+				90762BE825AEB00B00D88740 /* Alamofire */,
+				90762BED25AEB26B00D88740 /* URLImage */,
+			);
+			productName = jackson;
+			productReference = 7B46CEEE25AE213E00B709FE /* jackson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B46CF1E25AE2BC200B709FE /* MyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B46CF3425AE2BC700B709FE /* Build configuration list for PBXNativeTarget "MyWidgetExtension" */;
+			buildPhases = (
+				7B46CF1B25AE2BC200B709FE /* Sources */,
+				7B46CF1C25AE2BC200B709FE /* Frameworks */,
+				7B46CF1D25AE2BC200B709FE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = jackson;
-			productName = jackson;
-			productReference = 7B46CEEE25AE213E00B709FE /* jackson.app */;
-			productType = "com.apple.product-type.application";
+			name = MyWidgetExtension;
+			productName = MyWidgetExtension;
+			productReference = 7B46CF1F25AE2BC200B709FE /* MyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +220,9 @@
 					7B46CEED25AE213E00B709FE = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					7B46CF1E25AE2BC200B709FE = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 7B46CEE925AE213E00B709FE /* Build configuration list for PBXProject "jackson" */;
@@ -118,11 +234,16 @@
 				Base,
 			);
 			mainGroup = 7B46CEE525AE213E00B709FE;
+			packageReferences = (
+				90762BE725AEB00B00D88740 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				90762BEC25AEB26B00D88740 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 7B46CEEF25AE213E00B709FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7B46CEED25AE213E00B709FE /* jackson */,
+				7B46CF1E25AE2BC200B709FE /* MyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +258,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B46CF1D25AE2BC200B709FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B46CF2A25AE2BC700B709FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -144,14 +273,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B46CF2D25AE2BC700B709FE /* MyWidget.intentdefinition in Sources */,
 				7B46CEFB25AE214200B709FE /* Persistence.swift in Sources */,
 				7B46CEFE25AE214200B709FE /* jackson.xcdatamodeld in Sources */,
+				7B46CF3825AE2BED00B709FE /* data.swift in Sources */,
 				7B46CEF425AE213E00B709FE /* ContentView.swift in Sources */,
+				7B46CF0D25AE21E400B709FE /* musicEditor.swift in Sources */,
+				7B46CF0725AE219B00B709FE /* youtube.swift in Sources */,
 				7B46CEF225AE213E00B709FE /* jacksonApp.swift in Sources */,
+				7B46CF1425AE229600B709FE /* youtube_detail.swift in Sources */,
+				7B46CF0A25AE21B300B709FE /* music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B46CF1B25AE2BC200B709FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B46CF2C25AE2BC700B709FE /* MyWidget.intentdefinition in Sources */,
+				7B46CF3925AE2BED00B709FE /* data.swift in Sources */,
+				7B46CF2725AE2BC200B709FE /* MyWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B46CF2F25AE2BC700B709FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B46CF1E25AE2BC200B709FE /* MyWidgetExtension */;
+			targetProxy = 7B46CF2E25AE2BC700B709FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7B46CF0025AE214200B709FE /* Debug */ = {
@@ -273,6 +426,7 @@
 		7B46CF0325AE214200B709FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +448,7 @@
 		7B46CF0425AE214200B709FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +462,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ntou.Patty.-final-project3.jackson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B46CF3225AE2BC700B709FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ntou.Patty.-final-project3.jackson.MyWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B46CF3325AE2BC700B709FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ntou.Patty.-final-project3.jackson.MyWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,7 +528,48 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7B46CF3425AE2BC700B709FE /* Build configuration list for PBXNativeTarget "MyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B46CF3225AE2BC700B709FE /* Debug */,
+				7B46CF3325AE2BC700B709FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90762BE725AEB00B00D88740 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		90762BEC25AEB26B00D88740 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90762BE825AEB00B00D88740 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90762BE725AEB00B00D88740 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		90762BED25AEB26B00D88740 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90762BEC25AEB26B00D88740 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7B46CEFC25AE214200B709FE /* jackson.xcdatamodeld */ = {
